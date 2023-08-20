@@ -1,0 +1,99 @@
+
+        <div class="box">
+        <div class=" container">
+            <div class="row">
+            <div class="col-6"> 
+
+               <div class="card">
+                <h1 id="title"> Aadher Application Form</h1>
+                <p id="description" >It's a normal verification conducted every year by e-government</p>
+               
+<form id="form">
+    <div   class="form-group">
+        <div class="b1">
+         
+    <label for="first-name">First Name:</label><br>
+    <input type= "text"  id="first-name"  name="firstname"  placeholder="Enter your first name" required>
+ 
+</div>
+<div class="b2">
+    <label for="last-name"> Last Name:</label><br>
+    <input type="text" id="last-name" name="lastname"  placeholder="Enter your last name" required>
+</div>
+<div class="b3">
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" placeholder="Enter your address" required></textarea>
+
+</div>
+<div class="b4">
+    <label for="pincode"> Pincode:</label><br>
+    <input type="text" id="pincode"name="pincode"  placeholder="Enter your pincode" required>
+</div>
+<div class="b5">Gender: </div>   
+      
+  <div class="b6"> 
+     <form id="myform">  
+
+    <label for="male"> male<input type="radio" id="male"  name="male  " ></label><br>
+    <label for="female"> female<input   type="radio" id="female"  name="female  "></label><br>
+<!-- </form> -->
+</div>     
+ 
+<div class="b7"> choice of food:</div>
+<div class="b8"> 
+    <!-- <form id="myform"> -->
+    <label for="pizza"><input type="checkbox" id="pizza" name="pizza  "> pizza </label>
+    <label for="salad"><input type="checkbox" id="salad" name="salad  "> salad </label>
+    <label for="sandwich"><input type="checkbox" id="sandwich" name="sandwich"> sandwich </label>
+    <label for="steak"><input type="checkbox" id="steak" name="steak">  steak </label>
+<!-- </form> -->
+</div> 
+<div class="b9">
+    <label for="state"> State:</label><br>
+    <input type="text" id="state" name="state"  placeholder="Enter your state" required>
+</div>
+<div class="b10">
+    <label for="country">Country:</label><br>
+    <input type="text" id="country"name="country"  placeholder="Enter your country" required>
+</div>
+ 
+<div class="b11">
+    <button type="submit"  class=" btn btn-primary" id="submit">Submit</button>
+    <!-- <button type="button" id="submit" value="Submit" >Submit</button> -->
+</div>
+</div>
+</form>
+<table class="table">
+    <thead>
+      <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th >Address</th>
+        <th>Pincode</th>
+        <th>Gender</th>
+        <th> food</th>
+        <th>State</th>
+        <th>Country</th>
+         
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table rows will be appended here -->
+    </tbody>
+  </table>
+
+
+
+                  
+                </div> 
+            </div>
+             
+
+                </div>
+            </div>
+           
+             
+        </div>
+
+        
+ 
